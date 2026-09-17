@@ -1,0 +1,23 @@
+# Generated builds and local runtime files
+.gradle/
+build/
+out/
+run/
+runs/
+logs/
+crash-reports/
+# Editor metadata
+.idea/
+.vscode/
+*.iml
+# Local dependencies and credentials
+libs/
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+local.properties
+# OS files
+.DS_Store
+Thumbs.db
