@@ -13,7 +13,13 @@ Add the mod JAR to your Minecraft `mods` folder and restart the game. Install it
 - Minecraft 1.20.1
 - Fabric Loader 0.16.9 or newer
 - Java 17 or newer
-- Sophisticated Storage (Fabric) 1.20.1-1.3.5.11.142
-- Sophisticated Core 1.20.1-1.2.7.15.166
+- Sophisticated Storage (Fabric): published releases from 1.20.1-1.0.10.1.100 through 1.20.1-1.3.5.11.142
+- Sophisticated Core: published releases from 1.20.1-1.0.8.1.119 through 1.20.1-1.2.7.15.166
 
-This release requires the exact Sophisticated Storage and Sophisticated Core versions listed above.
+Use a Core version that also meets your installed Storage version's requirements. These ranges apply to the unofficial Fabric ports, not the Forge versions.
+
+## Compatibility
+
+The fix checks your installed versions and the relevant mod files when Minecraft starts. If either mod is missing, outside the supported releases, or has unexpected rendering code, the fix disables itself and writes a `Barrel fix DISABLED` warning to the console and `logs/latest.log`. Barrel displays may still flicker while the fix is disabled.
+
+This check does not bypass Minecraft, Fabric, or the other mods' own requirements. It also cannot prevent unrelated crashes or conflicts with other rendering patches.

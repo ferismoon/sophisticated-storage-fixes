@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "barrel_chunk_fix",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "SophisticatedStorage_Fixes",
   "description": "Separates Sophisticated Storage barrel model data between chunk-rendering threads.",
   "environment": "client",
   "license": "MIT",
-  "mixins": ["barrel-chunk-fix.mixins.json"],
+  "mixins": [
+    "barrel-chunk-fix.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.16.9",
     "minecraft": "1.20.1",
-    "java": ">=17",
-    "sophisticatedstorage": "=1.20.1-1.3.5.11.142",
-    "sophisticatedcore": "=1.20.1-1.2.7.15.166"
+    "java": ">=17"
   }
 }

@@ -1,4 +1,4 @@
-package local.barrelfix;
+package local.barrelfix.mixin;
 
 import net.p3pp3rf1y.sophisticatedcore.util.model.ModelData;
 import org.spongepowered.asm.mixin.Mixin;

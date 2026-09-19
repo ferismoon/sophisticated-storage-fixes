@@ -1,6 +1,6 @@
 import java.lang.reflect.Method;
 import java.util.concurrent.*;
-import local.barrelfix.BarrelModelDataMixin;
+import local.barrelfix.mixin.BarrelModelDataMixin;
 import net.p3pp3rf1y.sophisticatedcore.util.model.ModelData;
 
 public class ConcurrencyTest {
