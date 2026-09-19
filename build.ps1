@@ -29,6 +29,6 @@ if (Test-Path "$PSScriptRoot/../tools/barrel-compat/storage-fixtures.tsv") {
     & java "-Dlog4j.configurationFile=$PSScriptRoot/src/test/resources/log4j2.xml" -cp "$tests;$classes;$cp" local.barrelfix.CompatibilityTest "$PSScriptRoot/../tools/barrel-compat"
     if ($LASTEXITCODE) { throw 'Compatibility tests failed' }
 }
-& jar --create --file "$PSScriptRoot/build/SophisticatedStorage_Fixes-0.2.0.jar" -C $classes . -C "$PSScriptRoot/src/main/resources" .
+& jar --create --file "$PSScriptRoot/build/SophisticatedStorage_Fixes-0.2.0.jar" -C $classes . -C "$PSScriptRoot/src/main/resources" . -C $PSScriptRoot LICENSE
 if ($LASTEXITCODE) { throw 'Packaging failed' }
 Get-FileHash "$PSScriptRoot/build/SophisticatedStorage_Fixes-0.2.0.jar"

@@ -25,3 +25,7 @@ Use a Core version that also meets your installed Storage version's requirements
 The fix checks your installed versions and the relevant mod files when Minecraft starts. If either mod is missing, outside the supported releases, or has unexpected rendering code, the fix disables itself and writes a `Barrel fix DISABLED` warning to the console and `logs/latest.log`. Barrel displays may still flicker while the fix is disabled.
 
 This check does not bypass Minecraft, Fabric, or the other mods' own requirements. It also cannot prevent unrelated crashes or conflicts with other rendering patches.
+
+## Licence
+
+Licensed under the [MIT License](LICENSE). You can use, modify, and share this mod, including in modpacks and commercial projects. Keep the copyright and licence notice with redistributed copies.
