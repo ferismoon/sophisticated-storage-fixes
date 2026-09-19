@@ -6,7 +6,9 @@ The items displayed on the front of your barrels stay consistent as you move aro
 
 ## Installation
 
-Add the mod JAR to your Minecraft `mods` folder and restart the game. Install it on your client; servers do not need it. No configuration is needed.
+Download the JAR from [Releases](https://github.com/ferismoon/sophisticated-storage-fixes/releases/latest), add it to your Minecraft `mods` folder, and restart the game. Install it on your client; servers do not need it. No configuration is needed.
+
+When updating, remove the previous fix JAR so only one version is installed.
 
 ## Requirements
 
